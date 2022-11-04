@@ -336,7 +336,6 @@ class TweetManager:
             ('User-Agent', useragent),
             ('Accept', "application/json, text/javascript, */*; q=0.01"),
             ('Accept-Language', "en-US,en;q=0.5"),
-            ('X-Requested-With', "XMLHttpRequest"),
             ('Referer', url),
             ('Connection', "keep-alive")
         ]
